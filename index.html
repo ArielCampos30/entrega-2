@@ -1,27 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer navbar</title>
-    <link rel="stylesheet" href="./estilos/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I.amc Marketing Digital</title>
+    <link rel="stylesheet" href="./estilos/styles.css" />
+    <link rel="stylesheet" href="./estilos/media-queries.css" />
+  </head>
+  <body>
     <header class="inset">
-        <img src="./imagenes/logo2.png" alt="logo" class="Logo">
-        <nav class="navbar">
-            <ul class="ul">
-                <li><a href="#" class="list-a">Productos</a></li>
-                <li><a href="#" class="list-a">Servicios</a></li>
-                <li><a href="#" class="list-a">Contacto</a></li>
-            </ul>
-        </nav>
+      <img src="./imagenes/logo2.png" alt="logo" class="Logo" />
+      <nav class="navbar">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./imagenes/menu.png" alt="menu icon">
+        </label>
+        <ul class="ul">
+          <li><a href="#" class="list-a">Productos</a></li>
+          <li><a href="#" class="list-a">Servicios</a></li>
+          <li><a href="#" class="list-a">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="sect inset">
-
-        </section>
-
+      <section id="sect">
+        <div class="hero">
+          <h1 class="md-title">Marketing Digital E-Commerce</h1>
+          <p>
+            Ofrecemos soluciones personalizadas en marketing digital y
+            e-commerce, ayudándote a potenciar tu negocio con estrategias
+            efectivas. Convierte visitas en ventas y lleva tu marca al siguiente
+            nivel.
+          </p>
+          <a href="#">+Info</a>
+        </div>
+        <div class="mk-imag">
+          <img
+            class="image"
+            src="./imagenes/undraw_Social_dashboard_re_ocbd (5).png"
+            alt="imagen"
+          />
+        </div>
+      </section>
+      <section id="about">
+        <div class="info">
+          <h2>
+            Bienvenidos a <span>I.Amc:</span> Transformando Ideas en Resultados
+          </h2>
+          <p>
+            En <span>I.Amc</span>, nos especializamos en crear estrategias de
+            marketing digital que impulsan el crecimiento y la visibilidad de
+            negocios de todos los tamaños. Nuestro equipo de expertos
+            apasionados combina creatividad, análisis de datos y las últimas
+            tendencias tecnológicas para diseñar campañas que generan resultados
+            medibles. Nos dedicamos a ayudarte a alcanzar tus objetivos de
+            negocio, ofreciendo soluciones personalizadas que se adaptan a tus
+            necesidades específicas.
+            <span
+              >¡Confía en nosotros para llevar tu marca al siguiente
+              nivel!</span
+            >
+          </p>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
