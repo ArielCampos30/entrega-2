@@ -5,7 +5,6 @@
     --grad-white: rgba(233, 209, 209, 0.911);
     --grad-red: rgba(170, 20, 20, 0.938);
     --fond-caja: rgb(99, 103, 148);
-    --color-span: rgba(68, 10, 10, 0.986);
 }
 
 * {
@@ -170,6 +169,6 @@ main {
 
 .info span {
     font-weight: 1000;
-    color: var(--color-span);
+    color: var(--grad-red);
 }
 
