@@ -169,6 +169,8 @@ main {
 
 .info span {
     font-weight: 1000;
-    color: var(--grad-red);
+    background: linear-gradient(to bottom ,var(--grad-red), rgb(161, 100, 100));
+    color: transparent;
+    background-clip: text;
 }
 
