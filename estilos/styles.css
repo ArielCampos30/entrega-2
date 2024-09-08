@@ -5,6 +5,7 @@
     --grad-white: rgba(233, 209, 209, 0.911);
     --grad-red: rgba(170, 20, 20, 0.938);
     --fond-caja: rgb(99, 103, 148);
+    --box-shadow: 8px 8px 8px rgba(8, 8, 8, 0.699);
 }
 
 * {
@@ -98,6 +99,7 @@ main {
     align-items: flex-start;
     gap: 15px;
     width: 60%;
+    
 }
 
 .hero h1 {
@@ -108,7 +110,6 @@ main {
     background: linear-gradient(to bottom ,var(--grad-red), var(--grad-white));
     color: transparent;
     background-clip: text;
-    -webkit-background-clip: text;
 }
 
 .hero p {
@@ -117,6 +118,7 @@ main {
     background-color: var(--background);
     padding: 10px;
     border-radius: 16px;
+    box-shadow: var(--box-shadow);
 }
 
 .mk-imag {
@@ -129,6 +131,8 @@ main {
     display: flex;
     background-color: var(--backgrondSec);
     border-radius: 100px;
+    box-shadow: var(--box-shadow);
+
 }
 
 .hero a {
@@ -165,6 +169,7 @@ main {
     background-color: var(--background);
     padding: 10px;
     border-radius: 15px;
+    box-shadow: var(--box-shadow);
 }
 
 .info span {
@@ -173,4 +178,114 @@ main {
     color: transparent;
     background-clip: text;
 }
+
+/*============ Servicios============*/
+section{
+    justify-content: center;
+    align-items: center;
+}
+.pack__cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin:50px;
+    padding: 30px;
+}
+
+.plan{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.pack__cards img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(-5px -5px 10px rgb(85, 20, 20));
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    
+}
+
+.plan-info h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px white;
+    border-radius: 20px;
+}
+
+.list-basic{
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2px;
+}
+
+.list-basic p{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list-basic span{
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    gap: 10px;
+}
+
+
+
+.price-total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text-price{
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.price-value{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--grad-white);
+    text-shadow: 6px 6px 6px black;
+}
+
+
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+.btn-add{
+    background-color: var(--grad-red);
+    color: aliceblue;
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+
 

@@ -58,13 +58,13 @@
     }
 
     .hero h1 {
-        width: 90%;
+        width: 100%;
         font-size: 2rem;
         min-width: 300px;
     }
 
     .hero p {
-        width: 80%;
+        width: 150%;
         margin-bottom: 20px;
     }
 
@@ -77,5 +77,10 @@
     .mk-imag .image {
         width: 100%;
         max-width: 300px;
+    }
+
+    /*PLANES*/
+    .pack__cards{
+        flex-direction: column;
     }
 }
