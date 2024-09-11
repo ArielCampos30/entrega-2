@@ -83,8 +83,19 @@
     .pack__cards{
         flex-direction: column;
     }
+}
+@media (max-width: 816px){
+    .red-social{
+        display: flex;
+    }
 
-    .contact{
-        width: 100vh;
+    .contact-info{
+        font-size: 30px;
+    }
+
+    .datos-container{
+        flex-direction: column;
+        gap: 15px;
+        width: auto;
     }
 }

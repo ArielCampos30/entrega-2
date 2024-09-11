@@ -356,7 +356,7 @@ section{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     font-size: 2rem;
     gap: 30px;
 }
