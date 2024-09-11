@@ -83,4 +83,8 @@
     .pack__cards{
         flex-direction: column;
     }
+
+    .contact{
+        width: 100vh;
+    }
 }
