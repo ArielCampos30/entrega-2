@@ -288,4 +288,90 @@ section{
 }
 
 
+#contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    filter: drop-shadow(5px 5px 5px black);
+    text-shadow: 1px 1px 1px white;
+
+}
+.contact{
+    padding: 10px;
+    width: 150vh;
+}
+
+.red-social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.red-social a img{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    gap: 50px;
+    border-radius: 50px;
+    filter: drop-shadow(5px 5px 5px black);
+
+   
+    
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info h2{
+    margin: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration:underline;
+    
+    
+}
+
+.contact-info h3{
+    margin: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Impact, sans-serif;
+    
+}
+
+.datos-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datos{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    font-size: 2rem;
+    gap: 30px;
+}
+
+.contac-image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: var(--backgrondSec);
+  
+}
+
+
+
+
+
 
