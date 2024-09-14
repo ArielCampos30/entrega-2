@@ -148,9 +148,13 @@
 
     .datos{
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         font-size: 30px;
+        padding-left: 10px;
+    }
 
+    .datos .datos-email{
+        font-size: 26px;
     }
 
 }
