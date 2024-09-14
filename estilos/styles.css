@@ -302,24 +302,30 @@ section{
     width: 150vh;
 }
 
-.red-social{
+.red-social ol{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
-    width: 100%;
+    
 }
 
-.red-social a img{
+.red-social ol img{
     display: flex;
     height: 100px;
-    width: 100%;
-    gap: 50px;
+    width: 100px;
+    gap: 20px;
     border-radius: 50px;
-    filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black); 
+}
 
-   
-    
+#redes-toggle{
+    display: none;
+}
+
+.redes-icon i {
+    display: none;
+    cursor: pointer;
 }
 
 .contact-info{
@@ -339,7 +345,6 @@ section{
 }
 
 .contact-info h3{
-    margin: 30px;
     font-weight: 600;
     font-size: 50px;
     font-family: Impact, sans-serif;
@@ -369,6 +374,8 @@ section{
     background-color: var(--backgrondSec);
   
 }
+
+
 
 
 

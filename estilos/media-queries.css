@@ -84,9 +84,14 @@
         flex-direction: column;
     }
 }
-@media (max-width: 816px){
-    .red-social{
-        display: flex;
+@media (max-width: 760px){
+    .red-social ol{
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .contact-info h2, .contact-info h3{
+        font-size: 40px;
     }
 
     .contact-info{
@@ -96,6 +101,56 @@
     .datos-container{
         flex-direction: column;
         gap: 15px;
-        width: auto;
     }
+
+    .red-social ol img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 475px){
+
+    .redes-icon i {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        padding: 10px;
+        border-radius: 10px;
+        z-index: 1;
+        gap: 7px;
+    }
+    
+    .red-social ol img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .red-social ol{
+        display: none;
+        flex-direction: row;
+        right: 0px; 
+        bottom: 80px;
+        gap: 30px;
+        z-index: 1;
+    }
+
+    #redes-toggle:checked ~ ol {
+        display: flex; 
+        max-height: 20vh; /* Altura máxima cuando está visible */
+        padding-top: 10px;
+        border-width: 2px; /* le agrego el borde cuando esta visible*/
+    }
+
+    .contact-info h3{
+        font-size: 30px;
+    }
+
+    .datos{
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
+    }
+
 }
