@@ -299,7 +299,7 @@ section{
 }
 .contact{
     padding: 10px;
-    width: 150vh;
+    width:600px;
 }
 
 .red-social ol{
@@ -323,7 +323,7 @@ section{
     display: none;
 }
 
-.redes-icon i {
+.redes-icon img {
     display: none;
     cursor: pointer;
 }
@@ -336,7 +336,7 @@ section{
 }
 
 .contact-info h2{
-    margin: 30px;
+    margin: 10px;
     font-weight: 700;
     font-size: 50px;
     text-decoration:underline;
@@ -345,7 +345,7 @@ section{
 }
 
 .contact-info h3{
-    margin: 20px;
+    margin: 10px;
     font-weight: 600;
     font-size: 50px;
     font-family: Impact, sans-serif;

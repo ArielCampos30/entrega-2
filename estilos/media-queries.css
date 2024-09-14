@@ -111,14 +111,18 @@
 
 @media (max-width: 475px){
 
-    .redes-icon i {
+    .contact-info{
+        margin: 20px;
+    }
+    .redes-icon img {
         display: flex;
-        justify-content: center;
-        align-items: center;   
-        padding: 10px;
-        border-radius: 10px;
-        z-index: 1;
-        gap: 7px;
+        position: fixed;
+        right: 160px;
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        transform: scaley(-1);
+
     }
     
     .red-social ol img{
