@@ -13,7 +13,7 @@
         top: 20px;
     }
     /*ACOMODO LAS LISTAS PARA QUE NO APARESCAN Y TENGA ASPECTO CENTRADO*/
-    ul {
+    .lis-ul {
         display: none;
         flex-direction: column;
         align-items: center;
@@ -36,7 +36,7 @@
 }    
 
     /* CON ESTO MUESTRO EL MENU CUANDO HAGO CLICK EN EL ICONO*/
-    #menu-toggle:checked ~ ul {
+    #menu-toggle:checked ~ .lis-ul {
         display: flex; 
         max-height: 80vh; /* Altura máxima cuando está visible */
         padding: 20px;
@@ -107,6 +107,7 @@
         height: 60px;
         width: 60px;
     }
+
 }
 
 @media (max-width: 475px){
@@ -114,15 +115,17 @@
     .contact-info{
         margin: 20px;
     }
+
+    .redes-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .redes-icon img {
         display: flex;
-        position: fixed;
-        right: 160px;
-        top: 0px;
         width: 30px;
         height: 30px;
         transform: scaley(-1);
-
     }
     
     .red-social ol img{
@@ -150,11 +153,12 @@
         font-size: 30px;
     }
 
+    
+
     .datos{
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         font-size: 30px;
-        padding-left: 10px;
     }
 
     .datos .datos-email{
