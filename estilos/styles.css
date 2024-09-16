@@ -144,7 +144,7 @@ main {
     padding: 10px;
     border-radius: 16px;
     box-shadow: var(--box-shadow);
-    animation: slideUp 2s ease-out;
+    animation: slideUp 0.5s ease-out;
 }
 
 .mk-imag {
