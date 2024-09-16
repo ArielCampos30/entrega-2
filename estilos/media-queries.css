@@ -23,6 +23,7 @@
         left: 0;
         width: 100%;
         max-height: 0;
+        opacity: 0;
         background-color: var(--background);
         padding: 0 20px;
         border: 0px solid var(--fond-caja);
@@ -38,6 +39,7 @@
     /* CON ESTO MUESTRO EL MENU CUANDO HAGO CLICK EN EL ICONO*/
     #menu-toggle:checked ~ .lis-ul {
         display: flex; 
+        opacity: 1;
         max-height: 180px; /* Altura máxima cuando está visible */
         padding: 20px;
         border-width: 2px; /* le agrego el borde cuando esta visible*/
