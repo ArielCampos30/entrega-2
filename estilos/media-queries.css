@@ -22,7 +22,6 @@
         top: 65px;
         left: 0;
         width: 100%;
-        max-height: 0;
         background-color: var(--background);
         padding: 0 20px;
         border: 0px solid var(--fond-caja);
@@ -32,8 +31,8 @@
         z-index: 1;
         box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
         overflow: hidden;
-        transition: max-height 0.5s ease, padding 0.7s ease;
-}    
+    }
+  
 
     /* CON ESTO MUESTRO EL MENU CUANDO HAGO CLICK EN EL ICONO*/
     #menu-toggle:checked ~ .lis-ul {
@@ -79,11 +78,12 @@
         max-width: 300px;
     }
 
-    /*PLANES*/
+    /*==============PLANES=============*/
     .pack__cards{
         flex-direction: column;
     }
 }
+    /*==============redes socialesy contacto=============*/
 @media (max-width: 760px){
     .red-social ol{
         justify-content: center;
@@ -109,7 +109,7 @@
     }
 
 }
-
+    /*===================  acomodo el contacto para mejor visualizacion==============*/
 @media (max-width: 475px){
 
     .contact-info{
@@ -164,6 +164,8 @@
     .datos .datos-email{
         font-size: 26px;
     }
+
+    /*============== acomodo el tamaño de las letras del footer===============*/
 
     .footer_list li a{
         font-size: 15px;
