@@ -36,9 +36,9 @@
 }    
 
     /* CON ESTO MUESTRO EL MENU CUANDO HAGO CLICK EN EL ICONO*/
-    #menu-toggle:checked + .lis-ul {
+    #menu-toggle:checked ~ .lis-ul {
         display: flex; 
-        max-height: 80vh; /* Altura máxima cuando está visible */
+        max-height: 80px; /* Altura máxima cuando está visible */
         padding: 20px;
         border-width: 2px; /* le agrego el borde cuando esta visible*/
     }
