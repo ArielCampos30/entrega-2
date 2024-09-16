@@ -107,7 +107,7 @@ main {
     opacity: 0;
     }
     100% {
-    opacity: 1;
+     opacity: 1;
     }
 }
 
@@ -120,7 +120,7 @@ main {
     background: linear-gradient(to bottom ,var(--grad-red), var(--grad-white));
     color: transparent;
     background-clip: text;
-    animation: fadeIn 0.2s ease;
+    animation: fadeIn 2s easeforwards;
 }
 
 .hero p {
