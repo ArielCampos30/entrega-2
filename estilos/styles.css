@@ -107,9 +107,11 @@ main {
     font-weight: 600;
     width: 80%;
     min-width: 500px;
+    opacity:0;
     background: linear-gradient(to bottom ,var(--grad-red), var(--grad-white));
     color: transparent;
     background-clip: text;
+    transition: opacity 0.2s ease;
 }
 
 .hero p {
