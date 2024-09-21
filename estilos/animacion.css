@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
+
+@keyframes slideUp{
+    0% { 
+        transform: translateY(50px);
+        opacity: 0;
+       }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero p, .info, .plan, .hero a, #contacto{
+    animation: slideUp 1s ease-out;
+}
+
+@keyframes fadeInOut{
+    0% {
+    opacity: 0;
+    }
+    50% {
+     opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hero h1{
+    animation: fadeInOut 1s infinite;
+}
+
+@keyframes rightSlide{
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.mk-imag .image{
+    animation: rightSlide 2s ease;
+}
+
