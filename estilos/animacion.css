@@ -50,5 +50,50 @@ html{
     animation: rightSlide 2s ease;
 }
 
+.footer_list li, .lis-ul li{
+    position: relative;
+    padding: 0;
+}
 
+.lis-ul li a::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 85%;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.7s ease;
+}
 
+.lis-ul li a:hover::after{
+    transform: scale(1);
+    animation: backcol 0.9s forwards;
+}
+
+@keyframes backcol {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        background-color: rgb(219, 202, 202);
+        opacity: 1;
+    }
+}
+
+.footer_list li a::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.7s ease;
+}
+
+.footer_list li a:hover::after{
+    transform: scale(1);
+    animation: backcol 0.9s forwards;
+}

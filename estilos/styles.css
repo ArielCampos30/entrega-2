@@ -67,8 +67,10 @@ header {
 .lis-ul .list-a {
     font-weight: 1000;
     font-size: 22px;
-    color: var(--bg-text-one);
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
 }
+
 
 .Logo {
     height: 150%;
@@ -84,17 +86,6 @@ main {
     width: 100%;
 }
 
-.section {
-    height: 100vh;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
-  }
-
-  .section:target {
-    opacity: 1;
-    transform: translateY(0);
-  }
 
 #sect {
     margin-top: 20px;
@@ -321,7 +312,8 @@ section{
     align-items: center;
     width: 90%;
     filter: drop-shadow(5px 5px 5px black);
-    text-shadow: 1px 1px 1px white;
+    color: rgb(190, 175, 175);
+    text-shadow: 3px 0px 0px black;
 
 }
 
