@@ -152,14 +152,14 @@
         max-height: 100px; /* Altura máxima cuando está visible */
         opacity: 1;
         padding-top: 10px;
-        transition: max-height 1s ease-out, opacity 0.9s ease-out;
+        transition: max-height 0.7s ease-out, opacity 0.7s ease-out;
         border-width: 2px; /* le agrego el borde cuando esta visible*/
     }
 
     #redes-toggle:not(:checked) ~ ol {
         max-height: 0; /* Altura máxima cuando está oculta */
         opacity: 0; /* Ocultar */
-        transition: max-height 0.9s ease-out, opacity 0.9s ease-out; /* Transiciones suaves */
+        transition: max-height 0.7s ease-out, opacity 0.7s ease-out; /* Transiciones suaves */
         padding-top: 10px;
     }
 
