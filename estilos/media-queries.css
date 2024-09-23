@@ -129,7 +129,7 @@
         height: 30px;
         transform: scaley(-1);
     }
-    
+
     .red-social ol img{
         height: 50px;
         width: 50px;
@@ -146,6 +146,7 @@
         transition: max-height 1s ease-out, padding 0.8s ease-out;
         opacity: 0;
     }
+
 
     #redes-toggle:checked ~ ol {
         display: flex; 
